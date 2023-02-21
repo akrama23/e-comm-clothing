@@ -25,8 +25,13 @@ const App = () => {
     },
     {
       id: 6,
-      title: '',
+      title: 'test',
     },
+    {
+      id: 7,
+      title: 'test',
+    },
+
 
   ];
 
