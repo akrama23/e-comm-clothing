@@ -31,6 +31,10 @@ const App = () => {
       id: 7,
       title: 'test',
     },
+    {
+      id: 8,
+      title: 'test',
+    },
 
 
   ];
