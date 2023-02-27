@@ -34,7 +34,7 @@ const App = () => {
       {categories.map(({ title, id, imageUrl }) => (
         <div key={id} className="category-container">
           <div className="background-image" style={{
-              backgroungImage:`url(${imageUrl})`
+              backgroundImage:`url(${imageUrl})`
           }}/>
           <div className="category-body-container">
             <h2>{title}</h2>
