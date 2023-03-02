@@ -4,7 +4,7 @@ import Navigation from "./routes/navigation/navigation.component";
 import Home from "./routes/home/home.component";
 
 const Shop = () => {
-  return <hi>shop page</hi>;
+  return <h1>shop page</h1>;
 };
 
 const App = () => {
