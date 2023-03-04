@@ -10,6 +10,7 @@ const SignIn = () => {
   return (
     <div>
       <h1>Sign-In</h1>
+      <button onClick={logGoogleUser}>sign in with google </button>
     </div>
   );
 };

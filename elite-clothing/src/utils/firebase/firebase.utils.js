@@ -4,7 +4,7 @@ import {
   signInWithRedirect,
   signInWithPopup,
   GoogleAuthProvider,
-} from " firebase/auth";
+} from "firebase/auth";
 
 const firebaseConfig = {
   apiKey: "AIzaSyAHDdWAp9VlVytNhpwzpsXt6wq-IWLqrgI",
