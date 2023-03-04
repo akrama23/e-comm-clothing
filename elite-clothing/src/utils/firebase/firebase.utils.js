@@ -23,4 +23,4 @@ provider.setCustomParameters({
 });
 
 export const auth = getAuth();
-export const signInwithGooglepopup = () => signInWithPopup(auth, provider);
+export const signInWithGooglepopup = () => signInWithPopup(auth, provider);
