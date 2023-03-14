@@ -5,7 +5,7 @@ import {
   signInWithPopup,
   GoogleAuthProvider,
 } from "firebase/auth";
-
+//doc from firebase
 const firebaseConfig = {
   apiKey: "AIzaSyAHDdWAp9VlVytNhpwzpsXt6wq-IWLqrgI",
   authDomain: "elite-clothing-db-2c3a0.firebaseapp.com",
@@ -16,7 +16,7 @@ const firebaseConfig = {
 };
 
 
-
+//
 const firebaseApp = initializeApp(firebaseConfig);
 
 const provider = new GoogleAuthProvider();
