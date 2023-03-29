@@ -1,6 +1,16 @@
+import { useState } from "react";
 
+const defaultFormFields = {
+    displayName: '',
+    email: '',
+    password: '',
+    confirmPassword: ''
+};
 
 const SignUpForm = () => {
+
+    const [formFields, setFormFields] = useState(defaultFormFields);
+    const { displayName, email, password, confirmPassword } = formFields;
 
     return(
         <div>
@@ -14,10 +24,12 @@ const SignUpForm = () => {
                 <input type="password" required/>
                 <label>Confirm Password</label>
                 <input type="password" required/>
-                <button type="submit"></button>
+                <button type="submit"> Sign Up</button>
             </form>
 
         </div>
     )
 
 };
+
+export default SignUpForm;
