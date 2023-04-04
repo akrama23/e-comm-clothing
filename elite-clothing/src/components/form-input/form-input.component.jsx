@@ -1,3 +1,4 @@
+//import f0rm styles 
 import './form-input.styles.scss'
 
 const FormInput = ({ label, ...otherProps }) => {
