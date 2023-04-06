@@ -1,3 +1,5 @@
+import './sign-up-form.styles.scss'
+
 import { useState } from "react";
 
 import FormInput from "../form-input/form-input.component";
