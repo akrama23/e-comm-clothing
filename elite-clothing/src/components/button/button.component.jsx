@@ -1,9 +1,19 @@
- const Button = ({childern}) => {
-    return(
-        <button className="button-container">
-            {childern}
-        </button>
-    )
- }
+import "./button.styles.scss";
 
- export default Button;
+const BUTTON_TYPES_CLASSES = {
+  google: "google-sign-in",
+  inverted: "inverted",
+};
+
+const Button = ({ childern, buttonType, ...otherProps }) => {
+  return (
+    <button
+      className={`button-container ${BUTTON_TYPES_CLASSES[buttonType]}`}
+      {...otherProps}
+    >
+      {childern}
+    </button>
+  );
+};
+
+export default Button;
