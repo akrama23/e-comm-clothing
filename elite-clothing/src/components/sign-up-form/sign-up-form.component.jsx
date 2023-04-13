@@ -95,7 +95,7 @@ const SignUpForm = () => {
           name="confirmPassword"
           value={confirmPassword}
         />
-        <Button type="submit" >
+        <Button buttonType='google'type="submit" >
           Sign Up
         </Button>
          
